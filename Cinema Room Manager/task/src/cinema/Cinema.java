@@ -37,10 +37,9 @@ public class Cinema {
     static void initArray() {
         System.out.println("Enter the number of rows:");
         rows = inputInteger();
-        rows = checkNegative(rows);
         System.out.println("Enter the number of seats in each row:");
         seats = inputInteger();
-        seats = checkNegative(seats);
+        checkNegative();
         array = new char[rows][seats];
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < seats; j++) {
@@ -65,13 +64,14 @@ public class Cinema {
         }
     }
 
-    static int  checkNegative(int num) {
-        while (num < 0) {
-            System.out.println("Error: Size of array can not be negative!");
-            System.out.println("Enter the number:");
-            num = inputInteger();
+    static void  checkNegative() {
+        while (rows < 0 || seats < 0) {
+            System.out.println("\nError: Size of array can not be negative!\n");
+            System.out.println("Enter the number of rows:");
+            rows = inputInteger();
+            System.out.println("Enter the number of seats in each row:");
+            seats = inputInteger();
         }
-        return num;
     }
 
     static void showSeats() {
