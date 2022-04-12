@@ -9,7 +9,7 @@ At the start, a program should read two positive integer numbers that represent 
   - Current income;
   - The total income that shows how much money the theatre will get if all the tickets are sold.
 - Exit should stop the program.
-### Examples:
+### Example:
 ```
 Enter the number of rows:
 > six
