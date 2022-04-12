@@ -1,14 +1,14 @@
 # Cinema_Room_Manager
 ### The objective of this project:
 At the start, the program should read two positive integer numbers that represent the number of rows and seats in each row. Then, it should print a menu with the following four items:
-- Show the seats should print the current seating arrangement. The empty seats should be marked with an S symbol, and taken seats are marked with a B symbol.
-- Buy a ticket should read the seat coordinates from the input and print the ticket price like in the previous stage. After that, the chosen seat should be marked with a B when the item Show the seats is called.
-- When the item Statistics is chosen, your program should print the following information:
+- **Show the seats** should print the current seating arrangement. The empty seats should be marked with an S symbol, and taken seats are marked with a B symbol.
+- **Buy a ticket** should read the seat coordinates from the input and print the ticket price like in the previous stage. After that, the chosen seat should be marked with a B when the item Show the seats is called.
+- **Statistics** should print the following information:
   - The number of purchased tickets;
   - The number of purchased tickets represented as a percentage. Percentages should be rounded to 2 decimal places;
   - Current income;
   - The total income that shows how much money the theatre will get if all the tickets are sold.
-- Exit should stop the program.
+- **Exit** should stop the program.
 ### Example:
 ```
 Enter the number of rows:
