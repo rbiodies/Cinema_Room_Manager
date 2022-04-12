@@ -59,7 +59,7 @@ public class Cinema {
                 }
                 return Integer.parseInt(str);
             } catch(NumberFormatException e) {
-                System.out.println("Error: The number has not integer type!");
+                System.out.println("\nError: The number has not integer type!\n");
                 System.out.println("Enter the number:");
             }
         }
