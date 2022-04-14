@@ -138,4 +138,7 @@ Cinema:
 3. Statistics
 0. Exit
 > 0
+
+
+Process finished with exit code 0
 ```
